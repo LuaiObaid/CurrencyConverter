@@ -1,0 +1,47 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px
+}
+h1{
+    font-size: 50px;
+    text-align:center ;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    width: 48%;
+}
+select,input{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 8px 15px;
+    font-weight: 700;
+}
+button{
+    width: 200px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: brown;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 22px;
+}
